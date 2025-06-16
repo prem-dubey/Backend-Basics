@@ -1,0 +1,17 @@
+{
+  "name": "6-professional",
+  "version": "1.0.0",
+  "description": "how to setup a professional backend project",
+  "keywords": [
+    "javascript",
+    "backend",
+    "professional-setup"
+  ],
+  "license": "ISC",
+  "author": "Piyush Dubey",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
