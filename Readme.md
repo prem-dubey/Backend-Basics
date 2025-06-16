@@ -23,5 +23,7 @@ Database is always is another continent so always apply async await for db conne
 
 Always start IIFE with a semicolon to start a new fresh function not something related to previous line <br>
 
+we have to change the package.json dev part when importing dotenv using the import method <br>
+
 Sometimes we have to import using extension and we can export uisng const or default <br>
 
