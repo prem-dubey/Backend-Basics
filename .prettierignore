@@ -1,0 +1,9 @@
+/.vscode
+/node_modules
+./dist
+
+*.env
+.env
+.env.*
+
+//error is shown because not installed yet
