@@ -13,3 +13,15 @@ gitignore is not updated yet and also nodemodules is not made as we have not ins
 
 We download a devDependencies like npm i -D prettier <br> 
 This prettier is used to avoid small conflicts in a team like some add semicolon and some not and tabs spaces ...<br>
+
+Always Remember that index.js file is being executed on doing npm run dev and don't forget to add nodemon index.js into the script as dev <br>
+
+Installing all of the packages such as mongoose express dotenv <br>
+
+Always wrap database connection into try catch or promise <br>
+Database is always is another continent so always apply async await for db connection <br>
+
+Always start IIFE with a semicolon to start a new fresh function not something related to previous line <br>
+
+Sometimes we have to import using extension and we can export uisng const or default <br>
+
