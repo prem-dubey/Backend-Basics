@@ -27,3 +27,21 @@ we have to change the package.json dev part when importing dotenv using the impo
 
 Sometimes we have to import using extension and we can export uisng const or default <br>
 
+## Api Response and Error Handling 
+first of all we learned about a new method to export see app.js {} <br>
+A database connection req is a async process so it returns a promise so we wrote .then and .catch for that purpose <br>
+
+Sometimes there are issues between database and express to find that we put a app.on after the connection in a .then before the app.listen <br>
+
+app.use for middlewares or for any type of configuration changes <br>
+Remember to add the variable CORS_ORIGIN in .env file and add an orgin that except request from this origin only <br>
+
+Made express ready to take json file app.use(express.json()) and then made it ready for taking data from url <br>
+
+cookie-parese used for excessing cookies from user and also set cookies and all of the app.use is done <br>
+
+Now we are working on asyncHnadler in the utils file <br>
+
+We made our own ApiError file in utils for customized error messages <br>
+
+Next we are making api response file making our own class and learn more about constructor <br>
