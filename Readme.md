@@ -45,3 +45,11 @@ Now we are working on asyncHnadler in the utils file <br>
 We made our own ApiError file in utils for customized error messages <br>
 
 Next we are making api response file making our own class and learn more about constructor <br>
+
+Made a model of user and video ƒrom model link and then went ahead with mongoose aggregation pipeline   <br>
+
+We are installing bcrypt for password protection and hashing and next is json web token  <br>
+
+Arrow Function does'nt have access to this of a object and then encrypting the user data using bcrypt and then used bcrypt to add a function to check whether the password is correct or not  <br>
+
+Made refresh token and acess token generator in userSchema methods remember it's methods not method 
