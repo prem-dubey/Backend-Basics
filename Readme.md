@@ -52,4 +52,16 @@ We are installing bcrypt for password protection and hashing and next is json we
 
 Arrow Function does'nt have access to this of a object and then encrypting the user data using bcrypt and then used bcrypt to add a function to check whether the password is correct or not  <br>
 
-Made refresh token and acess token generator in userSchema methods remember it's methods not method 
+Made refresh token and acess token generator in userSchema methods remember it's methods not method <br>
+
+Downloaded cloudinary and multer to file image storing and handling and made cloudinary.js in utils <br>
+
+Handling multer in multer.middleware.js storing the file temporarily <br>
+
+Till now we have only done production grade setup and we have not made any sort of backend remember how we did this <br>
+
+Making Controller now and made routes in user.routes and passed control from app.js <br>
+
+we can give our own name when there is export default otherwise give same name in curly brackets <br>
+
+

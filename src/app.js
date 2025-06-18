@@ -15,6 +15,13 @@ app.use(express.urlencoded({extended:true , limit:"16kb"})) // for taking url an
 app.use(express.static("public")) // to save static files 
 app.use(cookieParser()) //used for excessing cookies from user and also set cookies 
 
+//routes import 
+import userRouter from './routes/user.routes.js'
+
+
+//routes declaration 
+app.use("/api/v1/users",userRouter) //this passes the control to user.routes.js file and /user is a prefix 
+
 
 
 

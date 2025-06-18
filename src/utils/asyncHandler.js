@@ -1,6 +1,7 @@
+//Using this we don't have to put everything in the try catch or promised 
 //this is a method of Promise both are used in production grade code 
 const asyncHandler = (requestHandler)=>{
-    (req,res,next)=>{
+    return (req,res,next)=>{
         Promise.resolve(requestHandler(req,res,next)).catch((error)=>next(error))
     }
 }

@@ -28,8 +28,6 @@ connectDb() // connecting the db and it returns a promise
     console.log(`Error connection failed : ${err}`);
 })
 
-
-
 /*
 //Below we have written the datanase connection in single index.js next we will make a seperate folder for it 
 
@@ -53,5 +51,4 @@ const app = express();
         throw error; //check if err or error or anything 
     }
 })();
-
 */
