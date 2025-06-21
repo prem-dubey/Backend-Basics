@@ -63,5 +63,8 @@ Till now we have only done production grade setup and we have not made any sort 
 Making Controller now and made routes in user.routes and passed control from app.js <br>
 
 we can give our own name when there is export default otherwise give same name in curly brackets <br>
+Making register user <br>
 
+We learnt how to use postman and user.controllers register user is completed <br>
 
+Made Login user after the register user and also made a route for that <br>

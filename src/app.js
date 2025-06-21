@@ -13,7 +13,7 @@ app.use(cors({ // see documentation for more in cors
 app.use(express.json({limit:"16kb"})) //making express ready to receive the json file 
 app.use(express.urlencoded({extended:true , limit:"16kb"})) // for taking url and decoding it 
 app.use(express.static("public")) // to save static files 
-app.use(cookieParser()) //used for excessing cookies from user and also set cookies 
+app.use(cookieParser()) //used for excessing cookies from user and also set cookies means we gave cookies acess to request 
 
 //routes import 
 import userRouter from './routes/user.routes.js'

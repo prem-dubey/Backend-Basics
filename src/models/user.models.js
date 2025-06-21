@@ -20,7 +20,7 @@ const userSchema = new Schema({
         unique:true,
         trim:true,
     },
-    fullname: {
+    fullName: {
         type:String,
         required:true,
         trim:true,
@@ -53,7 +53,7 @@ const userSchema = new Schema({
 
 //Encrypting the password just before going into the database
 userSchema.pre("save",async function(next){
-    if(!this.isModefied("password")) return next(); //checks if password is changed or not if not changed then no need to encrypt 
+    if(!this.isModified("password")) return next(); //checks if password is changed or not if not changed then no need to encrypt 
 
     this.password = await bcrypt.hash(this.password , 10)
     next() // passing the flag don't forget 
